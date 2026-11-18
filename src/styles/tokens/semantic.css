@@ -1,0 +1,49 @@
+:root {
+  /* Fonds */
+  --color-bg-page: var(--grey-50);
+  --color-bg-surface: var(--white);
+  --color-bg-muted: var(--grey-100);
+
+  /* Textes */
+  --color-text: var(--grey-800);
+  --color-text-strong: var(--grey-950);
+  --color-text-muted: var(--grey-600);
+  --color-text-disabled: var(--grey-400);
+  --color-text-inverse: var(--white);
+
+  /* Bordures */
+  --color-border: var(--grey-200);
+
+  /* Marque */
+  --color-brand: var(--orange-dark);
+  --color-brand-subtle: var(--orange-light);
+  --color-brand-accent: var(--orange-main);
+
+  /* Actions */
+  --color-action-primary: var(--grey-800);
+  --color-action-primary-hover: var(--grey-950);
+  --color-action-disabled-bg: var(--grey-200);
+  --color-action-disabled-text: var(--grey-400);
+  --color-focus-ring: var(--orange-main);
+
+  /* Retours système */
+  --color-danger: var(--red);
+  --color-danger-bg: var(--red-light);
+  --color-success: var(--green);
+  --color-success-bg: var(--green-light);
+  --color-warning: var(--amber);
+  --color-warning-bg: var(--amber-light);
+  --color-info: var(--blue);
+  --color-info-bg: var(--blue-light);
+
+  /* Statuts des tâches */
+  --color-status-todo: var(--color-danger);
+  --color-status-todo-bg: var(--color-danger-bg);
+  --color-status-in-progress: var(--color-warning);
+  --color-status-in-progress-bg: var(--color-warning-bg);
+  --color-status-done: var(--color-success);
+  --color-status-done-bg: var(--color-success-bg);
+
+  /* IA */
+  --color-ai-accent: var(--orange-main);
+}

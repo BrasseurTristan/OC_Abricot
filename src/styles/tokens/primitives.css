@@ -1,0 +1,82 @@
+:root {
+  /* Neutres */
+  --white: #ffffff;
+  --grey-50: #f9fafb;
+  --grey-100: #f3f4f6;
+  --grey-200: #e5e7eb;
+  --grey-400: #9ca3af;
+  --grey-600: #6b7280;
+  --grey-800: #1f1f1f;
+  --grey-950: #0f0f0f;
+
+  /* Marque */
+  --orange-light: #ffe8d9;
+  --orange-main: #ff8b42;
+  --orange-dark: #d3590b;
+
+  /* Système */
+  --red: #ef4444;
+  --red-light: #ffe0e0;
+  --green: #27ae60;
+  --green-light: #f1fff7;
+  --amber: #e08d00;
+  --amber-light: #fff0d7;
+  --blue: #3b82f6;
+  --blue-light: #e0ecff;
+
+  /* Polices */
+  --font-heading: var(--font-manrope), system-ui, sans-serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+
+  /* Tailles de texte */
+  --text-2xs: 0.625rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-h4: 1.5rem;
+  --text-h1: clamp(2rem, 1.6rem + 1.5vw, 2.5rem);
+
+  /* Graisses */
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Interlignage et espacement des lettres */
+  --leading-normal: normal;
+  --leading-relaxed: 1.5;
+  --tracking-caption: 0.02em;
+
+  /* Espacements */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-14: 3.5rem;
+  --space-16: 4rem;
+
+  /* Rayons */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.625rem;
+  --radius-full: 9999px;
+
+  /* Animations */
+  --duration-fast: 120ms;
+  --duration-normal: 200ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Z-index */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+
+  /* Mise en page */
+  --container-max: 76rem;
+  --header-height: 5.875rem;
+}
